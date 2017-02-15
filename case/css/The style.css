@@ -1,0 +1,176 @@
+/*--------下层-------*/
+@media screen and (min-width: 768px) {
+    .img1 {
+        height: 725px;
+        position: fixed;
+        /*display: none;*/
+        margin: 0 auto;
+     }
+
+    .img11 {
+        width: 50%;
+        height: 725px;
+
+    }
+
+    .box2 {
+        width: 23%;
+        height: 725px;
+        background-color: #EFEFEF;
+    }
+
+    .box3 {
+        width: 27%;
+        height: 725px;
+        background-color: #E6E6E6;
+    }
+
+    .font1 {
+        position: relative;
+        width: 1600px;
+        top: 250px;
+        left: 160px;
+        font-size: 200px;
+        color: white;
+        filter: alpha(Opacity=30);
+        -moz-opacity: 0.3;
+        opacity: 0.3;
+
+    }
+
+    .font2 {
+        position: relative;
+        top: -93px;
+        left: 180px;
+        font-size: 100px;
+        padding-left: 50px;
+        width: 1600px;
+        /*z-index: 10;*/
+
+    }
+
+    .font3 {
+        width: 650px;
+        height: 438px;
+        position: relative;
+        top: -73px;
+        left: 175px;
+
+    }
+
+    .font-tyle {
+        position: absolute;
+        height: 725px;
+        width: 768px;
+        margin-top: -90px;
+
+    }
+
+
+    .font3-1 {
+        width: 251px;
+        height: 232px;
+    }
+
+    .font3-1 > ul {
+        list-style: none;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 65px;
+    }
+
+    .font3-1 > ul > li {
+        padding-bottom: 10px;
+    }
+
+    .font3-1 > ul > li:nth-child(1), .font3-1 > ul > li:nth-child(3) {
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        left: 30px;
+    }
+
+    .font3-1 > ul > li:nth-child(2), .font3-1 > ul > li:nth-child(4) {
+        font-size: 50px;
+        font-weight: 900;
+        position: relative;
+        left: -17px;
+    }
+
+    .font3-2 {
+        width: 337px;
+        height: 232px;
+
+        float: right;
+        position: relative;
+        top: -232px;
+        line-height: 42px;
+    }
+
+    .font3-2 > p {
+        position: absolute;
+        top: 18px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: Roboto, sans-serif;
+        padding: 0 0 14px;
+    }
+
+    .font3-3 {
+        border-bottom: 1px solid;
+        width: 560px;
+        position: relative;
+        top: 25px;
+        left: 55px;
+    }
+
+    .font3-4 {
+        width: 251px;
+        height: 155px;
+        position: relative;
+        top: 51px;
+
+    }
+
+    .font3-4 > h3 {
+        font-size: 22px;
+        margin-left: 49px;
+    }
+
+    .font3-5 {
+        width: 337px;
+        height: 155px;
+        position: relative;
+        top: -105px;
+        left: 313px;
+
+    }
+
+    .font3-5 > p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .font-tyle {
+        position: absolute;
+        height: 725px;
+        width: 768px;
+        margin-top: -35px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .font-tyle {
+        /*position: absolute;*/
+        /*height: 725px;*/
+        /*width: 768px;*/
+        /*margin-top: -35px;*/
+        /*display: none;*/
+    }
+    /*.font1,.font2,.font3{*/
+        /*font-size: 10px;*/
+        /*margin-top: 39px;*/
+    /*}*/
+}

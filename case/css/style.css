@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*#div1{*/
+/*position: absolute;*/
+/*}*/
+/*--------共用的-------*/
+
+@media screen and (min-width: 768px) {
+    .heng {
+        position: absolute;
+
+    }
+
+    .heng, .nav, .left1, .right1, .bottom1, .box1 {
+        background-color: white;
+    }
+
+    .nav, .left1, .right1, .bottom1, .box1 {
+        position: fixed;
+    }
+
+    .carte > li > a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: darkblue;
+    }
+
+    .img11, .box2, .box3 {
+        float: right;
+    }
+
+    .font1, .font2, .font3, .nav {
+        font-family: Roboto, sans-serif;
+    }
+
+    /*--------------<!--导航栏 头部-->---------------*/
+    .nav {
+        width: 100%;
+        height: 55px;
+        text-align: center;
+
+        left: 0px;
+        right: 0px;
+        z-index: 1030;
+    }
+
+    .nav > span {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 55px;
+    }
+
+    /*----------------<!--左边-->-----------*/
+    .left1, .right1 {
+        width: 63px;
+        height: 820px;
+        /*position: fixed;*/
+        z-index: 1000;
+    }
+
+    .left1 {
+        left: 0px;
+    }
+
+    .heng1, .heng2, .heng3 {
+        position: absolute;
+        left: 14px;
+        width: 35px;
+        height: 3px;
+        background-color: #000;
+        z-index: 1200;
+
+    }
+
+    .heng1 {
+        top: 35px;
+    }
+
+    .heng2 {
+        top: 25px;
+    }
+
+    .heng3 {
+        top: 45px;
+    }
+
+    .heng {
+        width: 65px;
+        height: 70px;
+        top: 345px;
+        left: -2px;
+        perspective: 500px;
+    }
+
+    .box1 {
+        width: 250px;
+        height: 685px;
+        background-color: #00CC00;
+        left: 63px;
+        top: 55px;
+        display: none;
+
+    }
+
+    .carte {
+        list-style: none;
+        text-align: center;
+        position: relative;
+        top: 155px;
+        line-height: 45px;
+
+    }
+
+    /*------------- <!--右边-->-----------*/
+    .right1 {
+        right: 0px;
+    }
+
+    .right1 > span {
+        position: absolute;
+        left: 25px;
+        top: 275px;
+        width: 230px;
+        transform-origin: 0 100%;
+        transform: rotate(90deg);
+        z-index: 1100;
+        font-weight: 500;
+    }
+
+    .right1 > span > strong {
+        position: absolute;
+        font-size: 30px;
+        top: -6px;
+        left: -20px;
+    }
+
+    /*-----底部----*/
+    .bottom1 {
+        width: 100%;
+        height: 55px;
+        /*position: fixed;*/
+        bottom: 0px;
+        z-index: 1030;
+    }
+
+    .video1 {
+        width: 1458px;
+        /*width: 100%;*/
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        left: 63px;
+        /*height: 820px;*/
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+        /*display: none;*/
+    }
+}
+
+
+
